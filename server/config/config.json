@@ -1,0 +1,10 @@
+{
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/todolist"
+  },
+  "production": {
+    "PORT": 80,
+    "MONGODB_URI": "mongodb://domain_name/db_name"
+  }
+}
